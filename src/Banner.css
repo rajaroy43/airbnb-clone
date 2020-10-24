@@ -1,0 +1,53 @@
+.banner{
+    position: relative;
+    background: url("https://media.cntraveler.com/photos/5ec4047be1082306007a1fea/16:9/w_2560%2Cc_limit/MexicoCity_20015611_LivingRoom_1_JSL1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 78vh;
+    padding: 20px 70px;
+    background-color: black;
+}
+.banner__search{
+    display: flex;
+}
+
+
+
+.banner__search>button{
+    flex: 1;
+    color: tomato;
+    background-color: #fff;
+    text-transform: inherit;
+    font-weight: 700;
+
+}
+
+.banner__info{
+    position: absolute;
+    color: white;
+    top: 35%;
+    width: 320px;
+}
+
+.banner__info>h1{
+    font-size: 50px;
+}
+
+.banner__info>button{
+    text-transform: inherit;
+    background-color: tomato;
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+.banner__info>h4{
+    margin-top: 10px;
+}
+
+.banner__info>button:hover{
+    background-color: white;
+    color: tomato;
+}
+

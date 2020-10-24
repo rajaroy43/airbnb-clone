@@ -1,0 +1,43 @@
+.search{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.search>h2{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 345px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 539px;
+}
+
+.search>input{
+    padding: 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 410px;
+    width: 539px;
+}
+
+.search>button{
+    position: absolute;
+    color: white;
+    background-color: tomato;
+    left: 0;
+    top: 480px;
+    text-transform: inherit;
+    width: 579PX;
+}
+
+.search>button:hover{
+    background-color: white;
+    color: tomato;
+}
